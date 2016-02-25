@@ -172,6 +172,10 @@ header .intro-text .skills {
 }
 
 /* Panda - Registration, Login */
+#logReg {
+    position:relative;
+    top:-100px;
+}
 
 header form {
     text-align: right;
