@@ -48,7 +48,7 @@ hr.star-primary {
 
 hr.star-light:after,
 hr.star-primary:after {
-    content: "\f005";
+    content: "\f0c2";
     display: inline-block;
     position: relative;
     top: -.8em;
@@ -170,6 +170,43 @@ header .intro-text .skills {
 .navbar-inverse {
     border: 0;
 }
+
+/* Panda - Registration, Login */
+
+header form {
+    text-align: right;
+    padding-top: 20px;
+    padding-right:25%;
+}
+
+header form input {
+    width:300px;
+    color:#2C3E50;
+}
+
+header form button {
+    width:100px;
+}
+
+#Register {
+    background-color:#FF5A5F;
+}
+
+#Login {
+    background-color:whitesmoke;
+    color:slategray;
+}
+
+/*Edit ends*/
+
+/* Panda - prototype */
+
+#prototype {
+    width:300px;
+    font-size: 25px;
+}
+
+/*Edit ends*/
 
 section {
     padding: 100px 0;
@@ -334,6 +371,27 @@ section.success a.active {
 form .row:first-child .floating-label-form-group {
     border-top: 1px solid #eee;
 }
+
+/* Panda Contact Form */
+
+#contact {
+    background: #18bc9c;
+    color:white;
+}
+
+#contact .form-control{
+    color:white;
+}
+
+#contact button {
+    background:whitesmoke;
+    color: slategray;
+}
+
+#contact input::-webkit-input-placeholder,#contact textarea::-webkit-input-placeholder{
+    color:white;
+}
+/* Edit ends */
 
 footer {
     color: #fff;
